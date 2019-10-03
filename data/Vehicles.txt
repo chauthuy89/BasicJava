@@ -1,0 +1,70 @@
+Car;Ford;Fiesta Hatchback;23990;1;4.9
+Motorbike;Harley Davidson;Fat Boy Lo 2013;29500;13600;Private
+Motorbike;Harley Davidson;V Rod Muscle 2009;22000;15000;Private
+Car;Holden;Holden Volt Hatchback;75000;1.4;1.2
+Car;Ford;Ranger Utility;35040;2.2;7.6
+Motorbike;Harley Davidson;FXDB STREET BOB 2012;18999;4800;Private
+Car;Holden;Holden Cruze Sedan;29490;1.4;6.7
+Motorbike;Harley Davidson;Fat Bob 2008ÿ;15490;48903;Dealer
+Motorbike;Harley Davidson;Nightrod Special 2011;19000;11000;Private
+Car;Ford;Transit Utility;58540;2.2;8.9
+Motorbike;Can-Am;Commander 2013ÿ;18995;100000;Private
+Car;Ford;Mondeo Hatchback;43340;2;5.6
+Motorbike;Harley Davidson;V Rod SE 2006;27500;26000;Private
+Car;Holden;Holden Ute Utility;48990;3.6;9
+Car;Holden;Holden Malibu Sedan;42990;2;6.4
+Motorbike;Harley Davidson;Night Train 2006;21000;15000;Dealer
+Motorbike;Harley Davidson;Switchback 2014ÿ;24990;1000;Dealer
+Motorbike;BMW;F650GS 2011;13000;2500;Private
+Car;Ford;Ranger Wellside;35040;2.2;7.6
+Car;Ford;Falcon Sedan;48840;2;8.1
+Car;Holden;Holden Colorado Wellside;44490;2.8;7.6
+Car;Ford;Focus Hatchback;33340;1.6;5.3
+Motorbike;Polaris;Ranger 570EFI 2014;14500;1000;Private
+Car;Ford;Tourneo Custom Van;56990;2.2;6.7
+Motorbike;Ducati;888 STRADA MONOPOSTO 1994;14990;7500;Private
+Car;Holden;Holden Calais Wagon;68990;3.6;9.3
+Car;Ford;EcoSport SUV;29990;1.5;6.5
+Motorbike;Victory;HIGH BALL 2012;15500;9100;Private
+Motorbike;Kawasaki;ZX10R Ninja 2013 2013;15999;9437;Private
+Car;Holden;Holden Caprice Sedan;74990;3.6;11.7
+Car;Holden;Holden Barina Sedan;23990;1.6;6.6
+Motorbike;Yamaha;Rhino 4x4 2006;14300;1000;Dealer
+Motorbike;INTIMIDATOR;4x4 2014;2150;1000;Private
+Motorbike;Harley Davidson;FXD SE2 2008;18000;5000;Dealer
+Car;Ford;Kuga SUV;39990;1.6;6.2
+Motorbike;Harley Davidson;Softail 2006;16995;23489;Privae
+Motorbike;Harley Davidson;Custom 2009ÿ;22990;12942;Private
+Motorbike;Suzuki;M109 Boss 2014;23000;1000;Dealer
+Motorbike;Harley Davidson;Road King 2004;18500;36000;Dealer
+Motorbike;Triumph;Rocket 3 2008;16000;6300;Private
+Car;Holden;Holden Cruze Hatchback;29490;1.4;6.7
+Motorbike;Harley Davidson;FLSTFSE 2005ÿ;23490;12992;Private
+Car;Holden;Holden Barina Spark Hatchback;16990;1.2;5.2
+Car;Ford;Transit Van;59440;2.2;7.9
+Car;Ford;Transit Cargo Van;60940;2.2;7.8
+Car;Ford;Transit Cargo Utility;57840;2.2;7.8
+Car;Ford;Mondeo Wagon;44840;2;5.6
+Motorbike;Triumph;Tiger 800 XC ABS 2014;17990;2900;Private
+Motorbike;Aprilia;DORSODURO 2011;15650;6000;Dealer
+Motorbike;Harley Davidson;Fatboy Twin Cam 2000;13400;49000;Dealer
+Car;Holden;Holden Colorado 7 SUV;62990;2.8;9.2
+Car;Ford;Falcon Utility;46340;4;10.7
+Motorbike;Harley Davidson;Harley Davidson 1996;15000;31000;Private
+Motorbike;Harley Davidson;Softail Custom 2007;21000;87000;Private
+Car;Holden;Holden Commodore Wagon;52490;3;8.6
+Motorbike;Harley Davidson;Softail Slim 2013;22000;19730;Dealer
+Car;Holden;Holden Captiva SUV;36990;2.2;7.6
+Car;Ford;Focus Sedan;47340;2;6.4
+Car;Ford;Transit Custom Van;49490;2.2;6.6
+Car;Ford;Territory SUV;49990;2.7;8.2
+Motorbike;Yamaha;YFM700R 2014ÿ;15550;1000;Private
+Motorbike;Kawasaki;Concour 2011;15900;22000;Private
+Car;Holden;Holden Barina Hatchback;22490;1.4;6.4
+Car;Ford;Focus Wagon;34840;1.6;5.3
+Car;Holden;Holden Colorado Utility;44490;2.8;7.9
+Car;Holden;Holden Trax SUV;32990;1.4;6.9
+Motorbike;Ducati;Multistrada 2011;16500;49000;Dealer
+Car;Holden;Holden Commodore Sedan;49990;3;8.3
+Car;Holden;Holden Calais Sedan;58490;3.6;9
+Car;Holden;Holden Cruze Wagon;32490;1.8;6.7

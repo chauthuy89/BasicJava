@@ -1,0 +1,65 @@
+import java.io.FileReader;
+import java.util.Scanner;
+import java.util.HashMap;
+import java.io.IOException;
+/**
+ * Write a description of class StudentLookup here.
+ *
+ * @author BIT1
+ * @version 2013052201
+ */
+public class StudentLookup {
+
+    public static void main(String[] args)throws IOException {
+        HashMap<String,String> map = getData("/data/students.txt");
+        processRequests(map); 
+
+    } //main
+
+    /**
+     * Get a map of student Names using the ID as a key field
+     * from a text file
+     * @param filename The name of the test file
+     * @return The hashmap of names with IDs as the key value
+     */
+    public static HashMap<String,String> getData(String filename)throws IOException {
+        HashMap<String,String> map = new HashMap<String,String>();
+        FileReader fr=new FileReader(filename);
+        Scanner scn = new Scanner(fr);
+        while (scn.hasNextLine()){
+            String key = scn.next();        
+            String name = scn.nextLine().trim(); 
+            //System.out.printf("%s %s\n",key, name);            
+            map.put(key,name);
+
+        }
+        scn.close();
+        fr.close();
+        return map;
+    }//getData
+
+    /**
+     * Takes Student IDs from standard input and if they are known
+     * prints the Student name to standard output, otherwise prints
+     * an error message saying the ID is not known
+     * @param map The hashmap of Student names with ID as a key
+     */
+    public static void processRequests(HashMap<String,String> map) {
+        Scanner kb = new Scanner(System.in);
+        System.out.println("Please enter an ID");
+        String ID = kb.nextLine();
+        while (!ID.equals("#")){
+            if (map.containsKey(ID)){
+                
+                System.out.println(map.get(ID));
+            }
+            else {
+                System.out.println("ID Not Known!");
+            }  
+            System.out.println("Please enter an ID");
+            ID = kb.nextLine();  
+            
+        }
+    }//processRequests
+
+} // class StudentLookup

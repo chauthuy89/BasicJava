@@ -1,0 +1,17 @@
+agate: 4
+malachit:2
+garnet:3
+alexandrite:7
+melanite:1
+moldavite:1
+amazonite:3
+moonstone:10
+amber:7
+morganite:1
+amethyst:18
+opal:20
+ametrine:6
+quartz:4
+ammolite:2
+topaz:17
+obsidian:22

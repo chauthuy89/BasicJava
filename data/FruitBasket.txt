@@ -1,0 +1,34 @@
+import java.util.Scanner;
+/**
+ * Write a description of class FruitBasket here.
+ *
+ * @author Class
+ * @version 1
+ */
+public class FruitBasket {
+
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        String input = kb.nextLine();
+        while ( ! input.equals("#")) {
+            process(input);
+            input = kb.nextLine();
+        }
+        
+    } //main
+    
+    public static void process(String s) {
+        Scanner scn = new Scanner(s);
+        scn.useDelimiter(":");
+        String fruit = "fruit";
+        int quantity = 0;
+        double cost = 0;
+        double total = 0;
+        fruit = scn.next();
+        quantity = scn.nextInt();
+        cost = scn.nextDouble();
+        total = cost * quantity;
+        System.out.printf("%d x %s @ $%.2f: $%.2f\n",quantity,fruit,cost,total);
+    }
+
+} // class FruitBasket

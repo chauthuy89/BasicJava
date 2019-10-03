@@ -1,0 +1,55 @@
+
+import java.util.Scanner;
+/**
+ * Write a description of class Challenge here.
+ *
+ * @author Class
+ * @version 1
+ */
+public class Challenge {
+
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        String input = kb.nextLine();
+        while ( ! input.equals("#")){
+            process(input);
+            input = kb.nextLine();
+        }
+    } //main
+    
+    public static void process(String N){
+        Scanner scn = new Scanner(N);
+        scn.useDelimiter("[,:]+");
+        String firstname;
+        String surname;
+        int score;
+        firstname = scn.next();
+        firstname = firstCap(firstname);
+        surname = scn.next();
+        surname = firstCap(surname);
+        scn.useDelimiter("[\\s:]+");
+        score = scn.nextInt();
+        score += scn.nextInt();
+        score += scn.nextInt();
+        score += scn.nextInt();
+        double average = score / 4.0;
+        System.out.printf("%s, %s %.1f ",surname,firstname,average);
+        if (average < 50){
+            System.out.println("FAIL");
+        }
+        else {
+            System.out.println("PASS");
+        }
+        
+    }
+    
+    public static String firstCap(String name){
+        char first = name.charAt(0);
+        first = Character.toUpperCase(first);
+        name = first + name.substring(1);
+        return name;
+    }
+    
+    
+
+} // class Challenge

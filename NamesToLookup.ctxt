@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=filename
+comment1.target=java.util.HashMap\ getData(java.lang.String)
+comment1.text=\r\n\ Read\ name\ and\ age\ data\ from\ data\ file\r\n\ @param\ String\ filename\ The\ name\ of\ the\ file\ to\ read\r\n\ @return\ The\ HashMap\ of\ names\ and\ ages\r\n
+comment2.params=ages
+comment2.target=void\ queryData(java.util.HashMap)
+comment2.text=\r\n\ Query\ map\ for\ ages\r\n\ @param\ int\ ages\ \ The\ HashMap\ containing\ names\ and\ ages\r\n
+numComments=3

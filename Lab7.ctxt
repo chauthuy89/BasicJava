@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=mark
+comment1.target=void\ printGrade(int)
+comment1.text=\r\n\ Given\ a\ mark\ between\ 0\ and\ 100,\ output\ Pass\ or\ Fail\r\n\ @param\ mark\ The\ mark\ to\ grade\r\n
+numComments=2
